@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>PAGINEISHON MÏA</title>
+</head>
+<body>
+</body>
+<script>
+	function alerta1(id)
+	{
+		var elem = document.getElementById(id);
+		alert(elem.value)
+	}
+
+</script>
+<style>
+	#cuadro1{
+	
+	background-color:red;
+	}	#cuadro2{
+	
+	background-color:red;
+	}	#cuadro3{
+	
+	background-color:red;
+	}
+#p{
+ border: 5px solid black;
+ 
+}
+.b{
+ border: 2px solid black;
+ font-size: 70%;
+}
+</style>
+<form>
+	ID:       <input type="text" id="cuadro1" class="b"onclick="alerta1(this.id)"><br>
+	Nombre:   <input type="text"id="cuadro2" class="b"onclick="alerta1(this.id)"><br>
+	Edad:     <input type="text"id="cuadro3" class="b"onclick="alerta1(this.id)"><br>
+	<input type="submit" value="Aceptar"id="p" input type="submit" value="Aceptar">
+   
+
+</form>
+</html>
